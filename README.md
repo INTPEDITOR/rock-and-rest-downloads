@@ -4,19 +4,25 @@
 
 ## Windows 다운로드
 
-**[최신 배포판 다운로드](https://github.com/INTPEDITOR/rock-and-rest-downloads/releases/latest)**
+**[최신 배포판 다운로드](https://github.com/INTPEDITOR/rock-and-rest-downloads/releases/latest)** · **[v0.8.1 ZIP 바로 받기](https://github.com/INTPEDITOR/rock-and-rest-downloads/releases/download/v0.8.1/RockAndRest_v0.8.1_Windows.zip)**
 
-[v0.8.0 ZIP 바로 받기](https://github.com/INTPEDITOR/rock-and-rest-downloads/releases/download/v0.8.0/RockAndRest_v0.8.0_Windows.zip)
+로그인 없이 받을 수 있습니다. ZIP 전체를 압축 해제하고 **RockAndRest.exe**를 실행하세요. 기존 저장은 이어하기로 불러올 수 있습니다.
 
-GitHub 로그인 없이 다운로드할 수 있습니다. ZIP 전체를 압축 해제한 뒤 **RockAndRest.exe**를 실행하세요. 기존 저장은 이어하기로 불러올 수 있습니다.
+## v0.8.1 화면 설정 수정
+
+- 시야각·음량·감도·품질을 바꿀 때 창 크기·위치가 다시 적용되던 문제를 수정했습니다.
+- 설정 → 화면 → **창 해상도**에서 크기를 선택할 수 있습니다. 선택값을 저장하며 현재 모니터에 들어가는 크기만 표시합니다.
+- 전체 화면은 모니터 해상도를 사용합니다. 창 모드로 복귀하면 이전 크기·위치 또는 최대화 상태를 복원합니다.
+
+![화면 설정](screenshots/display_resolution_081.png)
 
 ## 조작
 
 WASD 이동 · 마우스 시점 · Shift 달리기 · E 또는 왼쪽 클릭 길게 줍기/정리/채굴 · Q 내려놓기 · Tab 성장 · Esc 메뉴.
 
-## v0.8.0 변경
+## 악세사리
 
-모자·가방의 곡면과 봉제선·버클, 직업별 장식과 귀·왕관·날개를 개선했습니다. 원본 바위너구리와 기존 저장을 유지합니다.
+v0.8.0에서 모자·가방의 곡면, 봉제선·버클, 직업별 장식과 귀·왕관·날개를 개선했습니다. 원본 캐릭터와 120종, 기존 저장 진행을 유지합니다.
 
 ![실제 착용 모습](screenshots/wearables.png)
 
@@ -26,6 +32,6 @@ WASD 이동 · 마우스 시점 · Shift 달리기 · E 또는 왼쪽 클릭 길
 
 ## 확인한 범위
 
-소스·OpenGL·배포 EXE 검사 각각 2,313개 통과, 실패 0개. 120종의 걷기·앉기·들기 모습도 확인했습니다. RTX 4070 / OpenGL / 1600×900 숨김 창 측정은 약 88–91 FPS이며, 다른 PC의 성능을 보장하는 수치는 아닙니다.
+소스·배포 EXE 기본 검사 각각 2,338개, 실제 OpenGL 창 검사 각각 2,341개 통과 / 실패 0개. 실제 창에서 시야각·음량·감도·품질 변경 후 크기와 위치 유지, 해상도 선택으로 1280×720 및 1600×900 전환을 확인했습니다. 전체 화면·최대화 복원은 창 상태 모형으로 검사했습니다.
 
-이 저장소에서는 Windows 실행 파일을 배포합니다. 사용한 구성 요소의 라이선스는 ZIP 안의 CREDITS.txt와 licenses 폴더에서 확인할 수 있습니다.
+이 저장소에서는 Windows 실행 파일을 배포합니다. 구성 요소 라이선스는 ZIP 안의 CREDITS.txt와 licenses 폴더에 있습니다.

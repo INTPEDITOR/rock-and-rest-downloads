@@ -4,9 +4,16 @@
 
 ## Windows 다운로드
 
-**[최신 배포판 다운로드](https://github.com/INTPEDITOR/rock-and-rest-downloads/releases/latest)** · **[v0.8.1 ZIP 바로 받기](https://github.com/INTPEDITOR/rock-and-rest-downloads/releases/download/v0.8.1/RockAndRest_v0.8.1_Windows.zip)**
+**[최신 배포판 다운로드](https://github.com/INTPEDITOR/rock-and-rest-downloads/releases/latest)** · **[v0.8.2 ZIP 바로 받기](https://github.com/INTPEDITOR/rock-and-rest-downloads/releases/download/v0.8.2/RockAndRest_v0.8.2_Windows.zip)**
 
 로그인 없이 받을 수 있습니다. ZIP 전체를 압축 해제하고 **RockAndRest.exe**를 실행하세요. 기존 저장은 이어하기로 불러올 수 있습니다.
+
+## v0.8.2 도전미션 연동
+
+- 도전미션에 별풍선이 모금되면 성공 여부를 기다리지 않고 일반 후원과 같은 효과를 순서대로 실행합니다.
+- 한 건의 수량이 **50·51·112·444·4444개**일 때 적용합니다. 미션 총 모금액으로 판정하지 않습니다.
+- 실패·취소해도 실행한 효과를 되돌리지 않으며 성공 상금 지급 때 다시 실행하지 않습니다.
+- 공식 SOOP 이벤트 구조와 합성 후원 기반 게임 동작 검사를 통과했습니다. 실제 도전미션 후원 수신은 실방송 검증 전입니다.
 
 ## v0.8.1 화면 설정 수정
 
@@ -32,6 +39,6 @@ v0.8.0에서 모자·가방의 곡면, 봉제선·버클, 직업별 장식과 �
 
 ## 확인한 범위
 
-소스·배포 EXE 기본 검사 각각 2,338개, 실제 OpenGL 창 검사 각각 2,341개 통과 / 실패 0개. 실제 창에서 시야각·음량·감도·품질 변경 후 크기와 위치 유지, 해상도 선택으로 1280×720 및 1600×900 전환을 확인했습니다. 전체 화면·최대화 복원은 창 상태 모형으로 검사했습니다.
+v0.8.2 소스·배포 EXE 기본 검사 각각 2,386개, 배포 EXE 실제 OpenGL 창 검사 2,389개 통과 / 실패 0개. 실제 창에서 시야각·음량·감도·품질 변경 후 크기와 위치 유지, 해상도 선택으로 1280×720 및 1600×900 전환을 확인했습니다. 전체 화면·최대화 복원은 창 상태 모형으로 검사했습니다.
 
 이 저장소에서는 Windows 실행 파일을 배포합니다. 구성 요소 라이선스는 ZIP 안의 CREDITS.txt와 licenses 폴더에 있습니다.
